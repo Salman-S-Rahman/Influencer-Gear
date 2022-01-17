@@ -178,3 +178,18 @@ section {
 }
 
 /* ==== collection end == */
+.contact-form input {
+    width: 350px;
+    margin: 20px auto;
+}
+
+.contact-form input:nth-child(3) {
+    width: 350px;
+}
+
+.contact-text h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* === contact part end == */
