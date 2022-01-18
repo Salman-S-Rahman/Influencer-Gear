@@ -193,3 +193,71 @@ section {
 }
 
 /* === contact part end == */
+.footer-part {
+    padding: 40px 0;
+    text-align: center;
+    background: rgb(4, 4, 32);
+}
+
+.footer-logo img {
+    width: 483px;
+    height: 110px;
+}
+
+.footer-social ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.footer-social ul li a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #aaaa;
+    color: black;
+    margin-left: 16px;
+    font-size: 15px;
+    font-weight: 700;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.footer-social ul li a:hover {
+    background: #fff;
+    color: orange;
+}
+
+.footer-top {
+    color: #fff;
+}
+
+.footer-top p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.footer-top p span {
+    display: block;
+}
+
+.search-menu {
+    display: none;
+}
+
+.all-menu {
+    display: block;
+}
+
+/* === footer end ====== */
